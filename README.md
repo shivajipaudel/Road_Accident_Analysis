@@ -30,7 +30,7 @@ PY Casualties = CALCULATE(SUM(Data[Number_of_Casualties]), SAMEPERIODLASTYEAR('C
 (c) Year on Year Growth of Casualties - YoY Casualties Measure
 YoY Casualties = ([CY Casualties] - [PY Casualties])/[PY Casualties]
 
-### 2. Total Accidents for Current Year and Year on Year Growth
+### Total Accidents for Current Year and Year on Year Growth
 
 (a) Current Year Accidents Count -- CY Accidents Count Measure
 CY Accidents Count = TOTALYTD(COUNT(Data[Accident_Index]), 'Calendar'[Date])
